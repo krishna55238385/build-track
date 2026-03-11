@@ -122,6 +122,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(600px circle at 0% 0%, color-mix(in oklch, var(--primary) 12%, transparent) 0%, transparent 50%),
+      radial-gradient(600px circle at 100% 0%, color-mix(in oklch, var(--chart-1) 12%, transparent) 0%, transparent 50%);
   }
   html {
     @apply font-sans;
